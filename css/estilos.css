@@ -1,0 +1,274 @@
+/*HEADER DE LAS REDES SOCIALES*/
+
+.social-header {
+    background-color: #0C0908; 
+    padding: 10px 0; /* Espaciado interno */
+    
+  }
+  .social-header i {
+    color: #6c757d; /* Color de los iconos */
+    font-size: 1.5rem; /* Tamaño de los iconos */
+    transition: color 0.3s ease, transform 0.3s ease;
+
+  }
+  .social-header i:hover {
+    color: #ffffff; 
+    transform: scale(1.2);
+    
+  }
+
+/*HEADER GENERAL*/
+.headerGENERAL{
+    background-color: #181311;
+    padding: 10px 0;
+}
+
+.headerGENERAL img{
+    border-radius: 5px;  
+}
+
+.textoLOGO{
+    text-shadow: #0C0908 2px 2px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    color: #795D53;
+    font-style: italic;
+    font-size: 40px;
+    font-weight: bold;
+    
+}
+
+.nav-item{
+    margin-right: 35px;
+    font-size: 30px;
+    font-weight: bold;
+    transition:transform 0.3s ease;
+    color: #785d53;
+    
+    
+}
+
+.nav-item:hover{
+    transform: scale(1.1);
+}
+
+/*CARRUSEL*/
+/* Hace las imágenes del carrusel más oscuras */
+.carousel-image {
+    filter: brightness(50%);
+    height: 500px;
+    object-fit: cover;
+}
+
+/* Estilo para el texto superpuesto */
+.carousel-caption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-0%, -50%);
+    text-align: center;
+    z-index: 2;
+    letter-spacing: 5px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.carousel-caption h1 {
+    font-size: 3rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+.carousel-caption .btn {
+    font-size: 1.2rem;
+    padding: 15px;
+    border-radius: 35px;
+    background-color: #4e403b;
+    border-color: #302521;
+    font-style: italic;
+  
+    
+    
+}
+
+.carousel-caption .btn:hover{
+    background-color: #795D53;
+    border-color: #302521;
+}
+
+.botonADQUIRIR a{
+    color: #ffffff;
+    text-shadow: #000000 1px 1px;
+}
+
+/*ACERCA DE */
+
+.center-text {
+    background-color: #181311;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px; /* Altura completa de la ventana */
+    color: #785d53;
+    text-shadow: #000000 3px 3px;
+    letter-spacing: 5px;
+    font-weight: bold;
+
+
+  }
+
+  /*GALERIA DE IMAGENES*/
+
+  .gallery-container {
+    background-color: #1d1a18;
+    padding: 15px;
+    margin-top: 0; /* Asegura que no haya espacio superior */
+}
+
+.gallery-container h1{
+
+    color: #56463e;
+    text-shadow: black 2px 2px 2px;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 2px;
+    font-weight: bolder;
+    
+}
+.gallery-container h2{
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #493731;
+    text-shadow: black 2px 2px;
+    font-weight: bolder;
+    font-style: italic;
+}
+.gallery-container span{
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #6d625e;
+    text-shadow: rgb(0, 0, 0) 1px 1px;
+   
+}
+
+
+
+
+.image-container {
+    text-align: center; /* Centra imágenes y texto */
+    margin-bottom: 20px; /* Espacio entre imágenes */
+}
+
+
+
+
+
+.image-container h6{
+
+    letter-spacing: 1px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #56463e;
+    text-shadow: black 2px 2px 2px;
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+.image-container img {
+    width: 100%; /* Asegura que la imagen sea responsiva */
+    max-width: 200px; /* Tamaño máximo de cada imagen */
+    height: auto; /* Mantiene la proporción de la imagen */
+    margin-bottom: 25px; /* Espacio entre la imagen y el texto */
+    border-radius: 35px;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.image-container img:hover{
+    transform: scale(1.1);
+}
+
+.section-content {
+    text-align: center; /* Centra el contenido del título y párrafo */
+    margin-bottom: 30px; /* Espacio debajo del párrafo */
+    
+}
+
+/*VIDEO PROMOCIONAL*/
+
+.videoPROMO{
+    background-color: #181311;
+    align-items: center;
+
+}
+
+.videoPROMO h1{
+    color: #785d53;
+    text-shadow: #000000 3px 3px;
+    letter-spacing: 5px;
+    font-weight: bold;
+
+}
+
+.videoPROMO p{
+
+    font-size: 25px;
+    font-weight: bold;
+    color: #4a3d38;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: #000000 2px 2px;
+}
+
+/*POR QUE NOSOTROS?*/
+.usPAGE{
+    background-color: #302521;
+}
+
+.usPAGE h2{
+    font-size: 45px;
+    color: #785d53;
+    text-shadow: #0C0908 2px 2px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    padding: 15px;
+}
+
+.feature { 
+    text-align: center;
+    margin-bottom: 20px;
+    border: #171413 solid 2px; 
+    margin: 15px;
+    border-radius: 35px;
+    background-color: #251e1d;
+} 
+.feature img { 
+    width: 100px;
+    height: 100px;
+    margin: 15px;
+}
+
+.feature h3{
+    color: #52403a;
+    text-shadow: #0C0908 2px 2px;
+    font-weight: bold;
+    text-transform: uppercase;
+
+}
+
+.feature p{
+    color: #72554c;
+    text-shadow: #0C0908 2px 2px;
+    font-size: 20px;
+
+}
+
+.FOOTER{
+    background-color: #0d0a09;
+}
+
+.FOOTER h5{
+    color: #72554c;
+}
+.FOOTER p, li, ul{
+    color: #72554c;
+}
+
+.enlacesFooter{
+    color: #332824;
+}

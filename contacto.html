@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - Tienda Streetwear</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- Enlace al CSS de Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .contact-header {
+            background: url('URL_DE_TU_IMAGEN_DE_CABECERA') no-repeat center center;
+            background-size: cover;
+            color: white;
+            text-align: center;
+            padding: 100px 0;
+        }
+        .icono {
+            font-size: 50px;
+            margin-bottom: 20px;
+        }
+        .about-us {
+            padding: 50px 0;
+        }
+        body{
+            background-color: rgb(35, 29, 29);
+
+        }
+        .contact-header{
+            font-size: 45px;
+            letter-spacing: 5px;
+            color: rgb(76, 56, 56);
+            text-shadow: black 2px 2px;
+            background-color: rgb(17, 14, 14);
+            
+        }
+
+        .about-us{
+            font-size: 25px;
+            color: rgb(67, 47, 47);
+            text-shadow: black 2px 2px;
+            font-weight: bold;
+
+        }
+
+        .about-us img{
+
+            filter: brightness(50%);
+            border-radius: 35px;
+            transition: filter 0.3s ease;
+        }
+
+        .about-us img:hover{
+
+            filter: brightness(100%);
+        }
+
+        .contactoTEXT{
+            letter-spacing: 2px;
+            color: rgb(67, 47, 47);
+            text-shadow: black 2px 2px;
+        }
+
+        .btn-primary{
+            background-color: rgb(54, 43, 43);
+            color: white;
+            text-shadow: black 2px 2px;
+            font-size: 20px;
+            border-color: rgb(40, 31, 31);
+        }
+
+        .btn-primary:hover{
+            background-color: rgb(32, 25, 25);
+            border-color: rgb(40, 31, 31);
+        }
+    </style>
+</head>
+<body>
+    <!--HEADER DE REDES SOCIALES-->
+    <header class="social-header">
+        <div class="container-fluid">
+          <div class="row justify-content-center">
+            <!-- Íconos de redes sociales -->
+            <div class="col-auto">
+              <a href="https://facebook.com" target="_blank" class="mx-3">
+                <i class="fa-brands fa-facebook"></i>               
+              </a>
+            </div>
+            <div class="col-auto">
+              <a href="https://twitter.com" target="_blank" class="mx-3">
+                <i class="fa-brands fa-x-twitter"></i>
+              </a>
+            </div>
+            <div class="col-auto">
+              <a href="https://instagram.com" target="_blank" class="mx-3">
+                <i class="fa-brands fa-instagram"></i>
+              </a>
+            </div>
+            <div class="col-auto">
+              <a href="https://linkedin.com" target="_blank" class="mx-3">
+                <i class="fa-brands fa-linkedin"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </header>
+
+    <!--HEADER GENERAL (LOGO Y NAVEGACION)-->
+    <header class="headerGENERAL">
+        <div class="container-fluid">
+            <!-- Contenedor principal con flexbox -->
+            <div class="d-flex justify-content-between align-items-center">
+                <!-- Logo y texto alineados a la izquierda -->
+                <div class="logo d-flex align-items-center">
+                    <a href="index.html">
+                        <img src="images/hubbard-college.svg" alt="Logo" class="logo-img">
+                    </a>
+                    <h1 class="ms-3 textoLOGO">HUBBARD COLLEGE</h1>
+                </div>
+                
+                <!-- Barra de navegación alineada a la derecha -->
+                <nav class="navbar navbar-expand-lg">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html"><i class="fa-solid fa-house"></i> Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="FAQS.html"><i class="fa-solid fa-question"></i> Preguntas</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="catalogo.html"><i class="fa-solid fa-shop"></i> Catalogo</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contacto.html"><i class="fa-solid fa-envelope"></i> Contacto</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+
+    <!-- Encabezado de contacto -->
+    <header class="contact-header">
+        <h1>Contáctanos</h1>
+        <p>Estamos aquí para ayudarte</p>
+    </header>
+
+    <!-- Sección de Contacto -->
+    <div class="container my-5 contactoTEXT">
+        <h2 class="text-center mb-4">Ponte en Contacto</h2>
+        <div class="row">
+            <div class="col-md-6 mb-4">
+                <h3>Escríbenos</h3>
+                <form>
+                    <div class="mb-3">
+                        <label for="nombre" class="form-label">Nombre</label>
+                        <input type="text" class="form-control" id="nombre" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="email" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="mensaje" class="form-label">Mensaje</label>
+                        <textarea class="form-control" id="mensaje" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Enviar</button>
+                </form>
+            </div>
+            <div class="col-md-6">
+                <h3>Información de Contacto</h3>
+                <ul class="list-unstyled">
+                    <li><i class="fas fa-map-marker-alt icono"></i> Av. 9 de Octubre 505, Lima, Perú</li>
+                    <li><i class="fas fa-phone icono"></i> +51 995 129 006</li>
+                    <li><i class="fas fa-envelope icono"></i> hubbardcollege@tienda.com</li>
+                    <li><i class="fas fa-clock icono"></i> Lunes a Viernes, 9AM - 6PM</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Sección sobre nosotros -->
+    <div class="container align-items-center about-us">
+        <h2 class="text-center mb-4">Sobre Nosotros</h2>
+        <div class="row">
+            <div class="col-md-6">
+                <img src="https://www.krakenstreetwear.com/cdn/shop/articles/thumb-esta-el-streetwear-pasado-de-moda.jpg?v=1710850228&width=1100" class="img-fluid" alt="Sobre Nosotros">
+            </div>
+            <div class="col-md-6">
+                <h3>Nuestra Historia:</h3>
+                <p>
+                    Somos una tienda de streetwear apasionada por la moda y la cultura urbana. Inspirados por artistas como Kanye West, Travis Scott y Playboi Carti, ofrecemos una amplia gama de productos diseñados para reflejar tu estilo único.
+                </p>
+                <p>
+                    Nuestro compromiso es ofrecer productos de la más alta calidad y un servicio al cliente excepcional. Ya sea que estés buscando la última tendencia o un clásico del streetwear, estamos aquí para ayudarte a encontrar lo que necesitas.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!--FOOTER-->
+    <footer class="text-center text-lg-start FOOTER"> 
+    <div class="container p-4"> 
+        <div class="row"> <!-- Columna 1 --> 
+        <div class="col-lg-4 col-md-6 mb-4 mb-md-0"> 
+            <h5 class="text-uppercase">Sobre Nosotros</h5> 
+            <p> Somos una tienda dedicada a ofrecer los mejores productos del mercado, con un compromiso hacia la calidad y el servicio al cliente. 
+            </p> 
+        </div> 
+        <!-- Columna 2 --> 
+         <div class="col-lg-4 col-md-6 mb-4 mb-md-0"> 
+            <h5 class="text-uppercase">Enlaces Rápidos</h5> 
+            <ul class="list-unstyled mb-0"> 
+                <li><a href="index.html" class="enlacesFooter">Inicio</a></li> 
+                <li><a href="catalogo.html" class="enlacesFooter">Productos</a></li> 
+                <li><a href="contacto.html" class="enlacesFooter">Contacto</a></li> 
+                <li><a href="FAQS.html" class="enlacesFooter">FAQS (preguntas frecuentes)</a></li> 
+            </ul> 
+        </div> 
+        <!-- Columna 3 --> 
+         <div class="col-lg-4 col-md-12 mb-4 mb-md-0"> 
+            <h5 class="text-uppercase">Contáctanos</h5> 
+            <ul class="list-unstyled mb-0"> 
+                <li><i class="fas fa-map-marker-alt me-2"></i> AV 9 DE OCTUBRE 505, Lima, Perú</li> 
+                <li><i class="fas fa-phone me-2"></i> +51 995 129 006</li> 
+                <li><i class="fas fa-envelope me-2"></i> hubbardcollege@tienda.com</li> 
+            </ul> 
+        </div> 
+    </div> 
+</div> 
+<!-- Copyright --> 
+ <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);"> © 2024 Tienda, Inc by Josue Gallardo. </div> 
+</footer>
+
+    <!-- Enlace al JavaScript de Bootstrap 5 -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Enlace a Font Awesome para los iconos -->
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</body>
+</html>
